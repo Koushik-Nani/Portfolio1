@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {	background-image: url("234.webp");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	font-family: Arial, Helvetica, sans-serif;}
+
+.card {	background-color:#C4FFFB;
+  	box-shadow: 0 32px 64px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 60%;
+	margin-left:20%;
+	margin-top:15%;}
+
+.container {
+  padding: 2px 16px;
+}
+
+ul {	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color:#C4FFFB;}
+li {	float: right;}
+li a {	display: block;
+  	color: black;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;}
+li a:hover:not(.active){
+  	background-color: #C4FFFB;
+	color:#B2BEB5;
+	border-radius:25px;}
+.active {
+	background-color: #C4FFFB;
+	font-size:20px;}
+
+
+
+
+.flex-container {
+    	display: flex;
+	padding:10px;}
+.flex-child {
+    	flex: 1;
+    	//border: 2px solid yellow;}  
+.flex-child:first-child {
+    	margin-right: 20px;} 
+
+
+
+button{
+	box-shadow: 0 16px 32px 0 rgba(126, 196, 188, 1);
+	width: 30%;
+  	padding: 12px;
+  	border: 1px solid #9CE2DA;
+  	border-radius: 8px;
+  	box-sizing: border-box;
+  	margin-top: 6px;
+  	margin-bottom: 16px;
+  	background-color:#066060;
+  	color: white;}
+button:hover{
+	border: 1px solid #066060;
+	box-shadow: 0 8px 16px 0 rgba(126, 196, 188, 1);
+	background-color:#9CE2DA;
+	}
+
+
+
+</style>
+</head>
+<body>
+
+
+
+<div class="card">
+	<div class="container">
+	<ul>	
+		<b><li><a href="contact.html">Contact</a></li>
+		<li><a href="skill.html">Skills</a></li>
+  		<li><a href="home.html">Home</a></li>
+		<li style="float:left"><a class="active" href="#about">K KOUSHIK KUMAR</a></li></b>
+	</ul> 
+  	</div>
+
+	<div class="flex-container">
+  		<div class="flex-child magenta">
+		<br><br><br>
+    		<font color="#075F60"><h1><b>Trying to reach me.</b></h1></font>
+		<h2>I'm Koushik, a Web Designer.<br>
+		If you are looking for a person with qualifications mentioned above feel free to contact me.</h2> 
+		<button>CONTACT ME</button>
+		
+  		</div>
+  
+  		<div class="flex-child green">
+     		<img src="789.jpg" alt="Avatar" style="width:100%">
+  		</div>
+  	</div>
+</div>
+
+</body>
+</html> 
